@@ -15,7 +15,7 @@ function wp_blueprint_site_title() {
 	<head>
 		<meta charset="<?php bloginfo( 'charset' ); ?>">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<meta name="theme-color" content="#1f3b6d">
+		<meta name="theme-color" content="#2e3440">
 		<title>right-brain code</title>
 		<link rel="profile" href="http://gmpg.org/xfn/11">
 		<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">

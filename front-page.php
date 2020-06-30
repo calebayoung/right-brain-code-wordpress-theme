@@ -52,7 +52,7 @@ get_header();
         <li>right-brain code</li>
         <ul>
             <li><a href="https://gitlab.com/calebayoung/right-brain-code-front-end" target="_blank">Front-end code</a></li>
-            <li>WordPress theme</li>
+            <li><a href="https://gitlab.com/calebayoung/right-brain-code-wordpress-theme" target="_blank">WordPress theme</a></li>
         </ul>
     </ul>
     <h2 class="page-content__heading">Recent Thoughts</h2>

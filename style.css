@@ -183,7 +183,7 @@ body {
     align-self: flex-end;
     font-family: var(--mont);
     font-size: 1.75rem;
-    color: var(--ghost-white-dark);
+    color: var(--gunmetal-light);
     text-transform: lowercase;
     margin-bottom: 0.5rem;
 }

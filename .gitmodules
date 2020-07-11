@@ -1,0 +1,6 @@
+[submodule "phpcs"]
+	path = phpcs
+	url = https://github.com/squizlabs/PHP_CodeSniffer.git
+[submodule "wpcs"]
+	path = wpcs
+	url = https://github.com/WordPress/WordPress-Coding-Standards.git

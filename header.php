@@ -40,9 +40,9 @@ function wp_blueprint_site_title() {
 					<h1 class="header__title"><a href="#">Right-Brain Code</a></h1>
 				</div>
 				<div class="header__link-container">
-					<h2 class="header__link"><a href="#">Home</a></h2>
-					<h2 class="header__link"><a href="#">Portfolio</a></h2>
-					<h2 class="header__link"><a href="#">Blog</a></h2>
+					<h2 class="header__link"><a class="header__anchor" href="#">Home</a></h2>
+					<h2 class="header__link"><a class="header__anchor" href="#">Portfolio</a></h2>
+					<h2 class="header__link"><a class="header__anchor" href="#">Blog</a></h2>
 				</div>
 			</header>
 			<div class="hero__quote-container">

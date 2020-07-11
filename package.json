@@ -1,0 +1,29 @@
+{
+  "name": "right-brain-code",
+  "version": "1.0.0",
+  "description": "Personal website and portfolio theme.",
+  "main": "index.php",
+  "dependencies": {
+    "stylelint": "^13.6.1",
+    "stylelint-config-wordpress": "^17.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/calebayoung/right-brain-code-wordpress-theme.git"
+  },
+  "keywords": [
+    "WordPress",
+    "theme",
+    "portfolio"
+  ],
+  "author": "Caleb Young",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/calebayoung/right-brain-code-wordpress-theme/issues"
+  },
+  "homepage": "https://gitlab.com/calebayoung/right-brain-code-wordpress-theme#readme"
+}

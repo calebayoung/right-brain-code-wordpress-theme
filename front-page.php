@@ -10,6 +10,27 @@ $theme_directory = get_template_directory_uri();
 
 get_header();
 ?>
+<div class="hero__shadow">
+	<div class="hero">
+		<header class="home-header">
+			<div class="home-header__title-container">
+				<a href="#"><img class="home-header__icon" src="<?php echo esc_url( "$theme_directory/icons/code-solid.svg" ); ?>"></a>
+				<h1 class="home-header__title"><a href="#">Right-Brain Code</a></h1>
+			</div>
+			<div class="home-header__link-container">
+				<h2 class="home-header__link"><a class="home-header__anchor" href="#">Home</a></h2>
+				<h2 class="home-header__link"><a class="home-header__anchor" href="#">Portfolio</a></h2>
+				<h2 class="home-header__link"><a class="home-header__anchor" href="#">Blog</a></h2>
+			</div>
+		</header>
+		<div class="hero__quote-container">
+			<div class="hero__quote">
+				<blockquote class="hero__quote-text">"The enemy of art is the absence of limitations."</blockquote>
+				<cite class="hero__quote-cite">&mdash; Orson Welles</cite>
+			</div>
+		</div>
+	</div>
+</div>
 <div class="page-content">
 	<h2 class="page-content__heading">Introduction</h2>
 	<p>Do limitations hold back creativity or enable it? While it's easy to believe more options will result in more possibilities, they don't guarantee a particularly meaningful result. Orson Welles, a prominent filmmaker and actor, argued that limitations are necessary in order to create something compelling. Anthony Frashaug, a typographer and designer from Welles' generation, felt the same way. He said "Admit constraints; then, having admitted, fill with discovery".</p>

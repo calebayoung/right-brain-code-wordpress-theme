@@ -18,9 +18,9 @@ get_header();
 				<h1 class="home-header__title"><a href="#">Right-Brain Code</a></h1>
 			</div>
 			<div class="home-header__link-container">
-				<h2 class="home-header__link"><a class="home-header__anchor" href="#">Home</a></h2>
-				<h2 class="home-header__link"><a class="home-header__anchor" href="#">Portfolio</a></h2>
-				<h2 class="home-header__link"><a class="home-header__anchor" href="#">Blog</a></h2>
+				<h2 class="home-header__link"><a class="home-header__anchor" href="<?php echo esc_url( home_url() ); ?>">Home</a></h2>
+				<h2 class="home-header__link"><a class="home-header__anchor" href="<?php echo esc_url( sprintf( '%s/portfolio', home_url() ) ); ?>">Portfolio</a></h2>
+				<!-- <h2 class="home-header__link"><a class="home-header__anchor" href="#">Blog</a></h2> -->
 			</div>
 		</header>
 		<div class="hero__quote-container">
@@ -40,7 +40,7 @@ get_header();
 	<div class="home-cards">
 		<div class="home-card">
 			<img class="home-card__icon" src="<?php echo esc_url( "$theme_directory/icons/laptop-code-solid.svg" ); ?>">
-			<h2 class="home-card__title">Front-End Developer</h2>
+			<h2 class="home-card__title">Web Developer</h2>
 			<p>3+ years of professional web development experience</p>
 			<hr class="home-card__separator">
 			<h3 class="home-card__subtitle">Languages:</h3>
@@ -82,8 +82,13 @@ get_header();
 			<li><a href="https://gitlab.com/calebayoung/right-brain-code-front-end" target="_blank">Front-end code</a></li>
 			<li><a href="https://gitlab.com/calebayoung/right-brain-code-wordpress-theme" target="_blank">WordPress theme</a></li>
 		</ul>
+		<li>BYU UXD Club Website</li>
+		<ul>
+			<li><a href="http://calebayoung.com/byu-uxd-front-end/" target="_blank">Homepage rough draft</a></li>
+		</ul>
 	</ul>
 	<h2 class="page-content__heading">Recent Thoughts</h2>
+	<p>Why are object-oriented patterns so rare in front-end development? I found a neat way to combine the two with Handlebars and JavaScript classes, stay tuned for a GitHub link.</p>
 	<p>CSS variables are so cool! I've only ever used them to store hex values. There are so many other applications. <a href="#">https://www.youtube.com/watch?v=NtRmIp4eMjs</a></p>
 	<p>JavaScript debouncing: I was recently reminded of this important function, especially code is bound to the window.scroll event. <a href="https://davidwalsh.name/javascript-debounce-function">https://davidwalsh.name/javascript-debounce-function</a></p>
 </div>

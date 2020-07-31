@@ -139,7 +139,7 @@ body {
 	flex-direction: column;
 	flex: 1;
 	padding: 0 2rem;
-	margin: 0 auto;
+	margin: 1rem auto 0;
 	font-family: var(--rubik);
 	font-size: 16px;
 	color: var(--gunmetal);
@@ -147,7 +147,6 @@ body {
 }
 
 .page-content__heading {
-	align-self: flex-end;
 	font-family: var(--mont);
 	font-size: 1.75rem;
 	color: var(--gunmetal-light);
@@ -248,8 +247,13 @@ body {
 	color: var(--ghost-white);
 	line-height: 1.5;
 	text-transform: lowercase;
+	text-decoration: none;
 	text-align: center;
 	margin-top: 1.5rem;
+}
+
+a.footer__text:hover {
+	font-style: italic;
 }
 
 .footer__icon {
@@ -282,7 +286,6 @@ body {
 		width: calc(100% - 8rem);
 		max-width: 640px;
 		padding: 0 4rem;
-		margin-top: -2rem;
 	}
 
 	.footer {
@@ -354,5 +357,26 @@ body {
 
 	.footer__text {
 		text-align: left;
+	}
+}
+
+
+.portfolio__tool {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 2rem 0 1rem;
+}
+
+.portfolio__tool img {
+	width: 4rem;
+}
+
+@media (min-width: 640px) {
+
+	.portfolio__tool {
+		display: grid;
+		grid-template-columns: 4rem auto;
+		grid-column-gap: 2rem;
 	}
 }

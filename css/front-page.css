@@ -28,7 +28,7 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	padding: 1rem;
+	padding: 1.5rem 1rem;
 }
 
 .home-header__icon {
@@ -87,6 +87,15 @@
 	margin: 1rem;
 }
 
+.page-content {
+	margin-top: 0;
+}
+
+
+.page-content__heading {
+	align-self: flex-end;
+}
+
 @media (min-width: 640px) {
 
 	.hero {
@@ -120,6 +129,10 @@
 	/* TODO: figure out what to do about these mobile links */
 	.homepage__mobile-link-container {
 		display: none;
+	}
+
+	.page-content {
+		margin-top: -2rem;
 	}
 }
 

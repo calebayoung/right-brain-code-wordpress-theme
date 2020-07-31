@@ -14,9 +14,9 @@ $theme_directory = get_template_directory_uri();
 					<img class="footer__logo" src="<?php echo esc_url( "$theme_directory/icons/code-solid.svg" ); ?>">
 				</div>
 				<div class="footer__section">
-					<span class="footer__text">Home</span>
-					<span class="footer__text">Portfolio</span>
-					<span class="footer__text">Blog</span>
+					<a class="footer__text" href="<?php echo esc_url( home_url() ); ?>">Home</a>
+					<a class="footer__text" href="<?php echo esc_url( sprintf( '%s/portfolio', home_url() ) ); ?>">Portfolio</a>
+					<!-- <a class="footer__text" href="">Blog</a> -->
 				</div>
 				<div class="footer__section">
 					<span class="footer__text">Icons provided by FontAwesome</span>

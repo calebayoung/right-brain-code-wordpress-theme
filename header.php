@@ -35,13 +35,13 @@ function wp_blueprint_site_title() {
 	<div class="header__background">
 		<header class="header">
 			<div class="header__title-container">
-				<a href="#"><img class="header__icon" src="<?php echo esc_url( "$theme_directory/icons/code-solid.svg" ); ?>"></a>
-				<h1 class="header__title"><a href="#">Right-Brain Code</a></h1>
+				<a href="<?php echo esc_url( home_url() ); ?>"><img class="header__icon" src="<?php echo esc_url( "$theme_directory/icons/code-solid.svg" ); ?>"></a>
+				<h1 class="header__title"><a href="<?php echo esc_url( home_url() ); ?>">Right-Brain Code</a></h1>
 			</div>
 			<div class="header__link-container">
-				<h2 class="header__link"><a class="header__anchor" href="#">Home</a></h2>
-				<h2 class="header__link"><a class="header__anchor" href="#">Portfolio</a></h2>
-				<h2 class="header__link"><a class="header__anchor" href="#">Blog</a></h2>
+				<h2 class="header__link"><a class="header__anchor" href="<?php echo esc_url( home_url() ); ?>">Home</a></h2>
+				<h2 class="header__link"><a class="header__anchor" href="<?php echo esc_url( sprintf( '%s/portfolio', home_url() ) ); ?>">Portfolio</a></h2>
+				<!-- <h2 class="header__link"><a class="header__anchor" href="#">Blog</a></h2> -->
 			</div>
 		</header>
 	</div>

@@ -13,19 +13,6 @@ $theme_directory = get_template_directory_uri();
 <div class="portfolio page-content">
 	<h2 class="page-content__heading">Resume</h2>
 	<p>Caleb Young, July 2020:<a href="http://calebayoung.com/wp-content/uploads/2020/07/Resume-Caleb-Young.pdf" target="_blank" style="margin-left: 1rem;">View</a><a href="http://calebayoung.com/wp-content/uploads/2020/07/Resume-Caleb-Young.pdf" target="_blank" download style="margin-left: 1rem;">Download</a></p>
-	<h2 class="page-content__heading">past & current projects</h2>
-	<ul>
-		<li>BYU Speeches: speeches.byu.edu</li>
-		<li>BYU Performing Arts Management: pam.byu.edu</li>
-		<li>BYU Brand: brand.byu.edu</li>
-		<li>BYU Magazine: magazine.byu.edu</li>
-		<li>BYU Publications & Graphics: create.byu.edu</li>
-		<li>PG-Core WordPress Theme Framework: pg-core.byu.edu</li>
-		<li>right-brain code: front-end source & WordPress theme</li>
-		<li>BYU UXD Club: Homepage rough draft</li>
-		<li>Fridget: fridget-5afbc.web.app</li>
-		<li>ChainLink.js: view on GitHub</li>
-	</ul>
 	<h2 class="page-content__heading">Programming Toolkit</h2>
 	<div class="programming-toolkit">
 		<div class="portfolio__tool">
@@ -89,6 +76,50 @@ $theme_directory = get_template_directory_uri();
 			<p>Angular</p>
 		</div>
 	</div>
+	<div class="projects">
+		<h2 class="page-content__heading">Past & Current Projects</h2>
+		<div>
+			<p>BYU Speeches: <a href="https://speeches.byu.edu/" target="_blank">speeches.byu.edu</a></p>
+			<a href="https://speeches.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/speeches.png" ); ?>"></a>
+		</div>
+		<div>
+			<p>BYU Performing Arts Management: <a href="https://pam.byu.edu/" target="_blank">pam.byu.edu</a></p>
+			<a href="https://pam.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/pam.png" ); ?>"></a>
+		</div>
+		<div>
+			<p>BYU Brand: <a href="https://brand.byu.edu/" target="_blank">brand.byu.edu</a></p>
+			<a href="https://brand.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/brand.png" ); ?>"></a>
+		</div>
+		<div>
+			<p>BYU Magazine: <a href="https://magazine.byu.edu/" target="_blank">magazine.byu.edu</a></p>
+			<a href="https://magazine.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/magazine.png" ); ?>"></a>
+		</div>
+		<div>
+			<p>BYU Publications & Graphics: <a href="https://create.byu.edu/" target="_blank">create.byu.edu</a></p>
+			<a href="https://create.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/create.png" ); ?>"></a>
+		</div>
+		<div>
+			<p>PG-Core WordPress Theme Framework: <a href="https://pg-core.byu.edu/" target="_blank">pg-core.byu.edu</a></p>
+			<a href="https://pg-core.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/pg-core.png" ); ?>"></a>
+		</div>
+		<div>
+			<p>right-brain code: <a href="" target="_blank">front-end source</a> & <a href="" target="_blank">WordPress theme</a></p>
+			<a href="<?php echo esc_url( home_url() ); ?>"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/right-brain-code.png" ); ?>"></a>
+		</div>
+		<div>
+			<p>BYU UXD Club: <a href="http://calebayoung.com/byu-uxd-front-end/" target="_blank">Homepage rough draft</a></p>
+			<a href="http://calebayoung.com/byu-uxd-front-end/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/byu-uxd-club.png" ); ?>"></a>
+		</div>
+		<div>
+			<p>Fridget: <a href="https://fridget-5afbc.web.app/" target="_blank">fridget-5afbc.web.app</a></p>
+			<a href="https://fridget-5afbc.web.app/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/fridget.png" ); ?>"></a>
+		</div>
+		<div>
+			<p>ChainLink.js: <a href="" target="_blank">view on GitHub</a> & <a href="http://calebayoung.com/chainlink/docs/" target="_blank">documentation</a></p>
+			<a href="http://calebayoung.com/chainlink/docs/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/chainlink.png" ); ?>"></a>
+		</div>
+	</div>
+	<h2 class="page-content__heading" style="text-align: center; margin: 6rem 0;">Have a question? Send me an <a href="mailto:caleb.a.young@gmail.com" style="text-decoration: none;">email</a></h2>
 </div>
 <?php
 get_footer();

@@ -166,6 +166,35 @@ body {
 	line-height: 2.5;
 }
 
+.projects {
+	margin-top: 2rem;
+}
+
+.projects .page-content__heading {
+	margin-bottom: 1rem;
+}
+
+.projects__screenshot {
+	width: 100%;
+	box-shadow: 0 5px 10px var(--ghost-white-darkest);
+	margin-bottom: 3rem;
+}
+
+@media (min-width: 1440px) {
+
+	.projects {
+		width: 200%;
+		margin-left: -50%;
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		grid-column-gap: 4rem;
+	}
+
+	.projects .page-content__heading {
+		grid-column: 1 / 3;
+	}
+}
+
 .home-cards {
 	width: 100%;
 	max-width: 400px;

@@ -99,6 +99,16 @@
 	text-align: right;
 }
 
+.recent-thought {
+	padding-bottom: 2rem;
+	border-bottom: 1px solid var(--gunmetal-lightest);
+	margin-bottom: 1.5rem;
+}
+
+.recent-thought:last-of-type {
+	border-bottom: none;
+}
+
 @media (min-width: 640px) {
 
 	.hero {

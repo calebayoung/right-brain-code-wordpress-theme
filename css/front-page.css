@@ -91,9 +91,12 @@
 	margin-top: 0;
 }
 
-
 .page-content__heading {
 	align-self: flex-end;
+}
+
+.mobile-portfolio-link {
+	text-align: right;
 }
 
 @media (min-width: 640px) {
@@ -126,8 +129,7 @@
 		padding-right: 1rem;
 	}
 
-	/* TODO: figure out what to do about these mobile links */
-	.homepage__mobile-link-container {
+	.mobile-portfolio-link {
 		display: none;
 	}
 

@@ -24,8 +24,9 @@ $theme_directory = get_template_directory_uri();
 					<span class="footer__text">This site is proudly powered by WordPress</span>
 				</div>
 				<div class="footer__section footer__section--contact">
-					<img class="footer__icon" src="<?php echo esc_url( "$theme_directory/icons/envelope-solid.svg" ); ?>">
-					<img class="footer__icon" src="<?php echo esc_url( "$theme_directory/icons/linkedin-brands.svg" ); ?>">
+					<a href="mailto:caleb.a.young@gmail.com"><img class="footer__icon" src="<?php echo esc_url( "$theme_directory/icons/envelope-solid.svg" ); ?>"></a>
+					<a href="https://github.com/calebayoung" target="_blank"><img class="footer__icon" src="<?php echo esc_url( "$theme_directory/icons/github-brands.svg" ); ?>"></a>
+					<a href="https://www.linkedin.com/in/caleb-young-32b9ba169/" target="_blank"><img class="footer__icon" src="<?php echo esc_url( "$theme_directory/icons/linkedin-brands.svg" ); ?>"></a>
 				</div>
 				<div class="footer__section">
 					<span class="footer__text">&copy; Caleb Young 2020</span>

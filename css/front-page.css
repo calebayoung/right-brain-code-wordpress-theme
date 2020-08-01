@@ -3,7 +3,7 @@
 }
 
 .hero {
-	background-image: url(../images/nordic.jpg);
+	background-image: url(../images/nordic-low-res.jpg);
 	background-position: center;
 	background-size: cover;
 	-webkit-clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);

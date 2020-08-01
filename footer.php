@@ -11,7 +11,7 @@ $theme_directory = get_template_directory_uri();
 		<div class="footer__background">
 			<footer class="footer">
 				<div class="footer__logo-container">
-					<img class="footer__logo" src="<?php echo esc_url( "$theme_directory/icons/code-solid.svg" ); ?>">
+					<a href="<?php echo esc_url( home_url() ); ?>"><img class="footer__logo" src="<?php echo esc_url( "$theme_directory/icons/code-solid.svg" ); ?>"></a>
 				</div>
 				<div class="footer__section">
 					<a class="footer__text" href="<?php echo esc_url( home_url() ); ?>">Home</a>

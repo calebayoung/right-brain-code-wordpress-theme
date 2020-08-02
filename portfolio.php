@@ -103,19 +103,19 @@ $theme_directory = get_template_directory_uri();
 			<a href="https://pg-core.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/pg-core.png" ); ?>"></a>
 		</div>
 		<div>
-			<p>right-brain code: <a href="" target="_blank">front-end source</a> & <a href="" target="_blank">WordPress theme</a></p>
+			<p>right-brain code: <a href="https://github.com/calebayoung/right-brain-code-front-end" target="_blank">front-end source</a> & <a href="https://github.com/calebayoung/right-brain-code-wordpress-theme" target="_blank">WordPress theme</a></p>
 			<a href="<?php echo esc_url( home_url() ); ?>"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/right-brain-code.png" ); ?>"></a>
 		</div>
 		<div>
-			<p>BYU UXD Club: <a href="http://calebayoung.com/byu-uxd-front-end/" target="_blank">Homepage rough draft</a></p>
+			<p>BYU UXD Club: <a href="http://calebayoung.com/byu-uxd-front-end/" target="_blank">homepage rough draft</a> & <a href="https://github.com/calebayoung/byu-uxd-front-end" target="_blank">source code</a></p>
 			<a href="http://calebayoung.com/byu-uxd-front-end/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/byu-uxd-club.png" ); ?>"></a>
 		</div>
 		<div>
-			<p>Fridget: <a href="https://fridget-5afbc.web.app/" target="_blank">fridget-5afbc.web.app</a></p>
+			<p>Fridget: <a href="https://fridget-5afbc.web.app/" target="_blank">live front end</a>, <a href="https://github.com/calebayoung/fridget-vanilla" target="_blank">source code</a>, & <a href="https://github.com/calebayoung/fridget-modules" target="_blank">basic front-end code</a></p>
 			<a href="https://fridget-5afbc.web.app/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/fridget.png" ); ?>"></a>
 		</div>
 		<div>
-			<p>ChainLink.js: <a href="" target="_blank">view on GitHub</a> & <a href="http://calebayoung.com/chainlink/docs/" target="_blank">documentation</a></p>
+			<p>ChainLink.js: <a href="https://github.com/calebayoung/chainlink.js" target="_blank">view on GitHub</a> & <a href="http://calebayoung.com/chainlink/docs/" target="_blank">documentation</a></p>
 			<a href="http://calebayoung.com/chainlink/docs/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/chainlink.png" ); ?>"></a>
 		</div>
 	</div>

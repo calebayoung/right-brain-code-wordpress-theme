@@ -276,7 +276,8 @@ body {
 	margin: 1.5rem auto 0;
 }
 
-.footer__text {
+.footer__text,
+.footer__link {
 	font-family: var(--rubik);
 	color: var(--ghost-white);
 	line-height: 1.5;
@@ -286,7 +287,7 @@ body {
 	margin-top: 1.5rem;
 }
 
-a.footer__text:hover {
+.footer__link:hover {
 	font-style: italic;
 }
 
@@ -390,7 +391,8 @@ a.footer__text:hover {
 		align-items: flex-end;
 	}
 
-	.footer__text {
+	.footer__text,
+	.footer__link {
 		text-align: left;
 	}
 }

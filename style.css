@@ -438,3 +438,15 @@ body {
 		margin-top: 1rem;
 	}
 }
+
+.lost {
+	text-align: center;
+}
+
+.lost__title {
+	font-family: var(--mont);
+	font-size: 3.5rem;
+	color: var(--gunmetal-light);
+	text-transform: lowercase;
+	letter-spacing: 2px;
+}

@@ -34,10 +34,10 @@ get_header();
 <div class="page-content">
 	<p class="mobile-portfolio-link"><a href="<?php echo esc_url( sprintf( '%s/portfolio', home_url() ) ); ?>">View my portfolio >></a></p>
 	<h2 class="page-content__heading">Introduction</h2>
-	<p>Do limitations hold back creativity or enable it? While it's easy to believe more options will result in more possibilities, they don't guarantee a particularly meaningful result. Orson Welles, a prominent filmmaker and actor, argued that limitations are necessary in order to create something compelling. Anthony Frashaug, a typographer and designer from Welles' generation, felt the same way. He said "Admit constraints; then, having admitted, fill with discovery".</p>
-	<p>This idea of constraints enabling creativity is especially applicable in web development and design. The web is a virtually infinite canvas. While the possibilities are empowering, newcomers and natives alike can become lost and arrive at a less-than-stellar destination. Defining and discovering boundaries is central to creating a web product that goes beyond functional.</p>
-	<p>That's where I live. From flushing out a design system to establishing database relationships, I find purpose and energy in creating artful web applications. I'm centered in front-end development (where I spend most of my time), but I enjoy stretching on both sides of the spectrum. I've dabbled in the world of UX design, and I'm not afraid to dig into the back-end of an application or the devops processes of a team.</p>
-	<p>My name is <b>Caleb Young</b>, and I'm excited to work with you on a project, collaborate on solving a problem, or learn one of the many things you probably know more about. Feel free to reach out to me through <a href="mailto:caleb.a.young@gmail.com">email</a> or on <a href="https://www.linkedin.com/in/caleb-young-32b9ba169/" target="_blank">LinkedIn</a>. If you'd like, you can view my resum&eacute; <a href="http://calebayoung.com/wp-content/uploads/2020/07/Resume-Caleb-Young.pdf" target="_blank">here</a>.</p>
+	<p>Do limitations stifle or enable creativity? While it’s easy to believe more options will result in more possibilities, it doesn’t guarantee a meaningful result. Orson Welles, a prominent filmmaker and actor, argued that limitations are necessary in order to create something compelling. Anthony Frashaug, a typographer and designer from Welles’ generation, felt the same way. He said “Admit constraints; then, having admitted, fill with discovery”.</p>
+	<p>This idea is especially applicable in web development and design. The web is a virtually infinite canvas. While the possibilities are empowering, newcomers and natives alike can become lost and arrive at less-than-stellar destinations. Defining and discovering boundaries is central to creating a web product that goes beyond functional.</p>
+	<p>That’s where I live. From fleshing out a design system to establishing database relationships, I find purpose and energy in creating artful web applications. I spend most of my time in front-end development, but I enjoy stretching on both sides of the spectrum. I’ve dabbled in the world of UX design, and I’m not afraid to dig into the back-end of an application or the devops processes of a team.</p>
+	<p>My name is <b>Caleb Young</b>, and I'm excited to work with you on a project, collaborate to solve a problem, or learn one of the many things you probably know more about. Feel free to reach out to me through <a href="mailto:caleb.a.young@gmail.com">email</a> or on <a href="https://www.linkedin.com/in/caleb-young-32b9ba169/" target="_blank">LinkedIn</a>. If you'd like, you can view my resum&eacute; <a href="http://calebayoung.com/wp-content/uploads/2020/07/Resume-Caleb-Young.pdf" target="_blank">here</a>.</p>
 	<div class="home-cards">
 		<div class="home-card">
 			<img class="home-card__icon" src="<?php echo esc_url( "$theme_directory/icons/laptop-code-solid.svg" ); ?>">
@@ -80,12 +80,13 @@ get_header();
 		</ul>
 		<li>right-brain code</li>
 		<ul>
-			<li><a href="https://gitlab.com/calebayoung/right-brain-code-front-end" target="_blank">Front-end code</a></li>
-			<li><a href="https://gitlab.com/calebayoung/right-brain-code-wordpress-theme" target="_blank">WordPress theme</a></li>
+			<li><a href="https://github.com/calebayoung/right-brain-code-front-end" target="_blank">Front-end code</a></li>
+			<li><a href="https://github.com/calebayoung/right-brain-code-wordpress-theme" target="_blank">WordPress theme</a></li>
 		</ul>
 		<li>BYU UXD Club Website</li>
 		<ul>
 			<li><a href="http://calebayoung.com/byu-uxd-front-end/" target="_blank">Homepage rough draft</a></li>
+			<li><a href="https://github.com/calebayoung/byu-uxd-front-end" target="_blank">Front-end code</a></lie>
 		</ul>
 	</ul>
 	<h2 class="page-content__heading">Recent Thoughts</h2>

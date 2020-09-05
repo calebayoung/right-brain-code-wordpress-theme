@@ -12,7 +12,7 @@ $theme_directory = get_template_directory_uri();
 ?>
 <div class="portfolio page-content">
 	<h2 class="page-content__heading">Resume</h2>
-	<p>Caleb Young, July 2020:<a href="http://calebayoung.com/wp-content/uploads/2020/07/Resume-Caleb-Young.pdf" target="_blank" style="margin-left: 1rem;">View</a><a href="http://calebayoung.com/wp-content/uploads/2020/07/Resume-Caleb-Young.pdf" target="_blank" download style="margin-left: 1rem;">Download</a></p>
+	<p>Caleb Young:<a href="http://calebayoung.com/wp-content/uploads/2020/07/Resume-Caleb-Young.pdf" target="_blank" style="margin-left: 1rem;">View</a><a href="http://calebayoung.com/wp-content/uploads/2020/07/Resume-Caleb-Young.pdf" target="_blank" download style="margin-left: 1rem;">Download</a></p>
 	<h2 class="page-content__heading">Programming Toolkit</h2>
 	<div class="programming-toolkit">
 		<div class="portfolio__tool">
@@ -87,39 +87,39 @@ $theme_directory = get_template_directory_uri();
 			<a href="https://pam.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/pam.png" ); ?>"></a>
 		</div>
 		<div>
-			<p>BYU Brand: <a href="https://brand.byu.edu/" target="_blank">brand.byu.edu</a></p>
-			<a href="https://brand.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/brand.png" ); ?>"></a>
-		</div>
-		<div>
-			<p>BYU Magazine: <a href="https://magazine.byu.edu/" target="_blank">magazine.byu.edu</a></p>
-			<a href="https://magazine.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/magazine.png" ); ?>"></a>
-		</div>
-		<div>
-			<p>BYU Publications & Graphics: <a href="https://create.byu.edu/" target="_blank">create.byu.edu</a></p>
-			<a href="https://create.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/create.png" ); ?>"></a>
-		</div>
-		<div>
-			<p>PG-Core WordPress Theme Framework: <a href="https://pg-core.byu.edu/" target="_blank">pg-core.byu.edu</a></p>
-			<a href="https://pg-core.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/pg-core.png" ); ?>"></a>
+			<p>BYU UXD Club: <a href="http://uxd.byu.edu" target="_blank">uxd.byu.edu</a> & <a href="https://github.com/calebayoung/byu-uxd-front-end" target="_blank">source code</a></p>
+			<a href="http://calebayoung.com/byu-uxd-front-end/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/byu-uxd-club.png" ); ?>"></a>
 		</div>
 		<div>
 			<p>right-brain code: <a href="https://github.com/calebayoung/right-brain-code-front-end" target="_blank">front-end source</a> & <a href="https://github.com/calebayoung/right-brain-code-wordpress-theme" target="_blank">WordPress theme</a></p>
 			<a href="<?php echo esc_url( home_url() ); ?>"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/right-brain-code.png" ); ?>"></a>
 		</div>
 		<div>
-			<p>BYU UXD Club: <a href="http://calebayoung.com/byu-uxd-front-end/" target="_blank">homepage rough draft</a> & <a href="https://github.com/calebayoung/byu-uxd-front-end" target="_blank">source code</a></p>
-			<a href="http://calebayoung.com/byu-uxd-front-end/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/byu-uxd-club.png" ); ?>"></a>
-		</div>
-		<div>
-			<p>Fridget: <a href="https://fridget-5afbc.web.app/" target="_blank">live front end</a>, <a href="https://github.com/calebayoung/fridget-vanilla" target="_blank">source code</a>, & <a href="https://github.com/calebayoung/fridget-modules" target="_blank">basic front-end code</a></p>
-			<a href="https://fridget-5afbc.web.app/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/fridget.png" ); ?>"></a>
-		</div>
-		<div>
 			<p>ChainLink.js: <a href="https://github.com/calebayoung/chainlink.js" target="_blank">view on GitHub</a> & <a href="http://calebayoung.com/chainlink/docs/" target="_blank">documentation</a></p>
 			<a href="http://calebayoung.com/chainlink/docs/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/chainlink.png" ); ?>"></a>
 		</div>
+		<div>
+			<p>BYU Brand: <a href="https://brand.byu.edu/" target="_blank">brand.byu.edu</a></p>
+			<a href="https://brand.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/brand.png" ); ?>"></a>
+		</div>
+		<!-- <div>
+			<p>BYU Publications & Graphics: <a href="https://create.byu.edu/" target="_blank">create.byu.edu</a></p>
+			<a href="https://create.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/create.png" ); ?>"></a>
+		</div> -->
+		<div>
+			<p>PG-Core WordPress Theme Framework: <a href="https://pg-core.byu.edu/" target="_blank">pg-core.byu.edu</a></p>
+			<a href="https://pg-core.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/pg-core.png" ); ?>"></a>
+		</div>
+		<!-- <div>
+			<p>Fridget: <a href="https://fridget-5afbc.web.app/" target="_blank">live front end</a>, <a href="https://github.com/calebayoung/fridget-vanilla" target="_blank">source code</a>, & <a href="https://github.com/calebayoung/fridget-modules" target="_blank">basic front-end code</a></p>
+			<a href="https://fridget-5afbc.web.app/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/fridget.png" ); ?>"></a>
+		</div> -->
+		<div>
+			<p>BYU Magazine: <a href="https://magazine.byu.edu/" target="_blank">magazine.byu.edu</a></p>
+			<a href="https://magazine.byu.edu/" target="_blank"><img class="projects__screenshot" src="<?php echo esc_url( "$theme_directory/images/project-screenshots/magazine.png" ); ?>"></a>
+		</div>
 	</div>
-	<h2 class="page-content__heading" style="text-align: center; margin: 6rem 0;">Have a question? Send me an <a href="mailto:caleb.a.young@gmail.com" style="text-decoration: none;">email</a></h2>
+	<h2 class="page-content__heading" style="text-align: center; margin: 6rem 0;">Have a question? Send me an <a href="mailto:caleb.a.young@gmail.com" style="text-decoration: underline;">email</a></h2>
 </div>
 <?php
 get_footer();

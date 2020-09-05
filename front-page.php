@@ -85,14 +85,14 @@ get_header();
 		</ul>
 		<li>BYU UXD Club Website</li>
 		<ul>
-			<li><a href="http://calebayoung.com/byu-uxd-front-end/" target="_blank">Homepage rough draft</a></li>
+			<li><a href="http://uxd.byu.edu/" target="_blank">uxd.byu.edu</a></li>
 			<li><a href="https://github.com/calebayoung/byu-uxd-front-end" target="_blank">Front-end code</a></lie>
 		</ul>
 	</ul>
 	<h2 class="page-content__heading">Recent Thoughts</h2>
-	<p class="recent-thought"><b>July 31st, 2020:</b> Why are object-oriented patterns so rare in front-end development? I found a neat way to combine the two with Handlebars and JavaScript classes, check out <a href="https://github.com/calebayoung/chainlink.js" target="_blank">this repo</a> or <a href="http://calebayoung.com/chainlink/docs/" target="_blank">the docs</a>.</p>
-	<p class="recent-thought"><b>July 2nd, 2020:</b> CSS variables are so cool! I've only ever used them to store hex values. There are so many other applications. <a href="#">https://www.youtube.com/watch?v=NtRmIp4eMjs</a></p>
-	<p class="recent-thought"><b>June 25th, 2020:</b> JavaScript debouncing - I was recently reminded of this important function, especially for code bound to the window.scroll event. <a href="https://davidwalsh.name/javascript-debounce-function">https://davidwalsh.name/javascript-debounce-function</a></p>
+	<p class="recent-thought">Why are object-oriented patterns so rare in front-end development? I found a neat way to combine the two with Handlebars and JavaScript classes, check out <a href="https://github.com/calebayoung/chainlink.js" target="_blank">this repo</a> or <a href="http://calebayoung.com/chainlink/docs/" target="_blank">the docs</a>.</p>
+	<p class="recent-thought">CSS variables are so cool! I've only ever used them to store hex values. There are so many other applications. <a href="#">https://www.youtube.com/watch?v=NtRmIp4eMjs</a></p>
+	<p class="recent-thought">JavaScript debouncing - I was recently reminded of this important function, especially for code bound to the window.scroll event. <a href="https://davidwalsh.name/javascript-debounce-function">https://davidwalsh.name/javascript-debounce-function</a></p>
 </div>
 <?php
 get_footer();

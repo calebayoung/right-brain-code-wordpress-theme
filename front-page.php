@@ -91,7 +91,7 @@ get_header();
 	</ul>
 	<h2 class="page-content__heading">Recent Thoughts</h2>
 	<p class="recent-thought">Why are object-oriented patterns so rare in front-end development? I found a neat way to combine the two with Handlebars and JavaScript classes, check out <a href="https://github.com/calebayoung/chainlink.js" target="_blank">this repo</a> or <a href="http://calebayoung.com/chainlink/docs/" target="_blank">the docs</a> (still a work in progress).</p>
-	<p class="recent-thought">CSS variables are so cool! I've only ever used them to store hex values. There are so many other applications. <a href="#">https://www.youtube.com/watch?v=NtRmIp4eMjs</a></p>
+	<p class="recent-thought">CSS variables are so cool! I've only ever used them to store hex values. There are so many other applications. <a href="https://www.youtube.com/watch?v=NtRmIp4eMjs" target="_blank">https://www.youtube.com/watch?v=NtRmIp4eMjs</a></p>
 	<p class="recent-thought">JavaScript debouncing - I was recently reminded of this important function, especially for code bound to the window.scroll event. <a href="https://davidwalsh.name/javascript-debounce-function">https://davidwalsh.name/javascript-debounce-function</a></p>
 </div>
 <?php

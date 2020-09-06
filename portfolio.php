@@ -60,6 +60,10 @@ $theme_directory = get_template_directory_uri();
 			<p>Python</p>
 		</div>
 		<div class="portfolio__tool">
+			<img src="<?php echo esc_url( "$theme_directory/tool-icons/aws.png" ); ?>">
+			<p>AWS</p>
+		</div>
+		<div class="portfolio__tool">
 			<img src="<?php echo esc_url( "$theme_directory/tool-icons/database-solid.svg" ); ?>">
 			<p>SQL</p>
 		</div>

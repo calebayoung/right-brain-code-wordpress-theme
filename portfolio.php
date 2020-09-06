@@ -12,7 +12,7 @@ $theme_directory = get_template_directory_uri();
 ?>
 <div class="portfolio page-content">
 	<h2 class="page-content__heading">Resume</h2>
-	<p>Caleb Young:<a href="http://calebayoung.com/wp-content/uploads/2020/07/Resume-Caleb-Young.pdf" target="_blank" style="margin-left: 1rem;">View</a><a href="http://calebayoung.com/wp-content/uploads/2020/07/Resume-Caleb-Young.pdf" target="_blank" download style="margin-left: 1rem;">Download</a></p>
+	<p>Caleb Young:<a href="http://calebayoung.com/wp-content/uploads/2020/09/Resume-Caleb-Young.pdf" target="_blank" style="margin-left: 1rem;">View</a><a href="http://calebayoung.com/wp-content/uploads/2020/09/Resume-Caleb-Young.pdf" target="_blank" download style="margin-left: 1rem;">Download</a></p>
 	<h2 class="page-content__heading">Programming Toolkit</h2>
 	<div class="programming-toolkit">
 		<div class="portfolio__tool">
